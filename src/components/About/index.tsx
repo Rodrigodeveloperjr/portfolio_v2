@@ -1,4 +1,6 @@
 import my from "../../assets/IMG-20220905-WA0007.jpg";
+import { ButtonCopy } from "../ButtonCopy";
+import { ButtonCV } from "../ButtonCV";
 import { Container } from "./style";
 
 const About = () => {
@@ -32,8 +34,8 @@ const About = () => {
         </div>
 
         <div>
-          <a href="../../assets/Currículo - Rodrigo.pdf" download={true}>Baixar CV</a>
-          <input />
+          <ButtonCV />
+          <ButtonCopy link="rodrigojsdeveloper@gmail.com" />
         </div>
       </div>
     </Container>

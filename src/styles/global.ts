@@ -15,7 +15,7 @@ export default createGlobalStyle`
     --black-color: #09090A;
     --black-color-two: #111111;
     --purple-color: #8257e5;
-    --purple-hover: #9466ff;
+    --purple-hover: #4a2e8a;
 	}
 
   body {
@@ -24,6 +24,7 @@ export default createGlobalStyle`
 	}
 
   button, a {
+		transition: .5s;
 		cursor: pointer;
 	}
 

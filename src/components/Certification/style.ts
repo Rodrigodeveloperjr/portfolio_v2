@@ -1,12 +1,6 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  & > div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
   & > a {
     width: 100%;
     max-width: 260px;

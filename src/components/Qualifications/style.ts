@@ -57,14 +57,21 @@ const Container = styled.div`
     }
   }
 
-  & > menu {
+  .menuCertifications,
+  .menuJobs {
     width: 100%;
-
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+  }
 
+  .menuCertifications {
+    justify-content: flex-start;
     padding: 25px;
+  }
+
+  .menuJobs {
+    padding-top: 25px;
+    justify-content: center;
   }
 `;
 

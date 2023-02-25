@@ -1,6 +1,5 @@
 import { CompletionDate } from "../CompletionDate";
 import { CompanysImage } from "../CompanysImage";
-import { Description } from "../Description";
 import { Container } from "./style";
 import { Title } from "../Title";
 
@@ -23,7 +22,7 @@ const Job = ({ src, alt, title, description, date }: IJob) => {
 
       <Title title={title} />
 
-      <Description description={description} />
+      <p>{description}</p>
 
       <CompletionDate date={date} />
     </Container>

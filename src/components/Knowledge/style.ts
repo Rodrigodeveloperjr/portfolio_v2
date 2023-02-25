@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 90px;
+
   & > h2 {
     font-size: 30px;
     font-weight: 600;
@@ -18,7 +24,7 @@ const Container = styled.div`
     justify-content: center;
     flex-wrap: wrap;
 
-    padding-bottom: 90px;
+    padding-bottom: 25px;
   }
 `;
 

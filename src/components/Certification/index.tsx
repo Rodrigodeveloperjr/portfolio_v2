@@ -1,7 +1,7 @@
 import { CompletionDate } from "../CompletionDate";
 import { CompanysImage } from "../CompanysImage";
 import { Description } from "../Description";
-import { Container } from "./style";
+import { ButtonLink } from "../ButtonLink";
 import { Title } from "../Title";
 
 interface ICertification {
@@ -22,7 +22,7 @@ const Certification = ({
   link,
 }: ICertification) => {
   return (
-    <Container>
+    <div>
       <CompanysImage icon="icons8:student" srcCompany={src} altCompany={alt} />
 
       <Title title={title} />
@@ -31,10 +31,10 @@ const Certification = ({
 
       <CompletionDate date={date} />
 
-      <a href={link} target="_blank">
+      <ButtonLink href={link} target="_blank">
         Visuzalizar certificado
-      </a>
-    </Container>
+      </ButtonLink>
+    </div>
   );
 };
 

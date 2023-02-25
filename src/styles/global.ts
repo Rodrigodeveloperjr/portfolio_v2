@@ -18,6 +18,7 @@ export default createGlobalStyle`
     --purple-hover: #4A2E8A;
 		--gray-color: #CCC;
 		--gray-color-two: #818181;
+		--shadow: rgba(0, 0, 0, 0.5);
 	}
 
   body {
@@ -38,7 +39,7 @@ export default createGlobalStyle`
 		padding: 250px 100px 0 100px;
 
 		width: 100%;
-		max-width: 1500px;
+		max-width: 1600px;
 
 		margin: 0 auto;
 	}

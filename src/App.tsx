@@ -5,6 +5,7 @@ import { Home } from "./components/Home";
 import React from "react";
 import { Services } from "./components/Services";
 import { Knowledge } from "./components/Knowledge";
+import { MyProjects } from "./components/MyProjects";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Qualifications />
         <Services />
         <Knowledge />
+        <MyProjects />
       </div>
     </React.Fragment>
   );

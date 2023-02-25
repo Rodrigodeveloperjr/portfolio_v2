@@ -8,8 +8,6 @@ const Container = styled.div`
   border: 2px solid var(--black-color-two);
 
   padding: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
 
   & > h3 {
     font-size: 20px;

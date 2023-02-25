@@ -51,6 +51,11 @@ const Container = styled.div`
     display: flex;
 
     padding-bottom: 90px;
+
+    & > div:nth-child(2),
+    & > div:nth-child(5) {
+      margin: 0 20px 20px 20px;
+    }
   }
 `;
 

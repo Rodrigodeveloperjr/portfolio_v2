@@ -12,8 +12,8 @@ export default createGlobalStyle`
 
 	:root {
     --white-color: #FAFAFA;
-    --black-color: #111111;
-    --black-color-two: #0D0D0D;
+    --black-color: #09090A;
+    --black-color-two: #111111;
     --purple-color: #8257e5;
     --purple-hover: #9466ff;
 	}

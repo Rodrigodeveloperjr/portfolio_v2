@@ -16,6 +16,7 @@ export default createGlobalStyle`
     --black-color-two: #111111;
     --purple-color: #8257e5;
     --purple-hover: #4a2e8a;
+		--gray-color: #CCC;
 	}
 
   body {

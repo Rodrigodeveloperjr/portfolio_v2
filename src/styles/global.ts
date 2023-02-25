@@ -17,6 +17,7 @@ export default createGlobalStyle`
     --purple-color: #8257e5;
     --purple-hover: #4a2e8a;
 		--gray-color: #CCC;
+		--gray-color-two: #818181;
 	}
 
   body {
@@ -31,5 +32,14 @@ export default createGlobalStyle`
 
   a {
 		text-decoration: none;
+	}
+
+	.App {
+		padding: 250px 100px 0 100px;
+
+		width: 100%;
+		max-width: 1400px;
+
+		margin: 0 auto;
 	}
 `;

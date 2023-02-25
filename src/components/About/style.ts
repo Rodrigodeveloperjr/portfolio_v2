@@ -10,7 +10,7 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  padding-top: 200px;
+  padding: 200px 0 350px 0;
 
   & > img {
     width: 450px;

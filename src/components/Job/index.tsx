@@ -4,38 +4,30 @@ import { Description } from "../Description";
 import { Container } from "./style";
 import { Title } from "../Title";
 
-interface ICertification {
+interface IJob {
   src: string;
   alt: string;
   title: string;
   description: string;
   date: string;
-  link: string;
 }
 
-const Certification = ({
-  src,
-  alt,
-  title,
-  description,
-  date,
-  link,
-}: ICertification) => {
+const Job = ({ src, alt, title, description, date }: IJob) => {
   return (
     <Container>
-      <CompanysImage icon="icons8:student" srcCompany={src} altCompany={alt} />
+      <CompanysImage
+        icon="material-symbols:work"
+        srcCompany={src}
+        altCompany={alt}
+      />
 
       <Title title={title} />
 
       <Description description={description} />
 
       <CompletionDate date={date} />
-
-      <a href={link} target="_blank">
-        Visuzalizar certificado
-      </a>
     </Container>
   );
 };
 
-export { Certification };
+export { Job };

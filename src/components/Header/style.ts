@@ -17,6 +17,15 @@ const Container = styled.header`
 
   z-index: 2000;
 
+  & > a {
+    color: var(--purple-color);
+    font-size: 28px;
+
+    & > a {
+      color: var(--white-color);
+    }
+  }
+
   .menu {
     width: 60px;
     height: 60px;

@@ -1,6 +1,7 @@
-import my from "../../assets/IMG-20220905-WA0007.jpg";
+import my from "../../assets/IMG-20220905-WA0007-removebg-preview.png";
 import { ButtonCopy } from "../ButtonCopy";
 import { ButtonCV } from "../ButtonCV";
+import { Icon } from "@iconify/react";
 import { Container } from "./style";
 
 const About = () => {
@@ -10,7 +11,14 @@ const About = () => {
 
       <div>
         <div>
-          <h2>Desenvolvedor Full Stack</h2>
+          <div>
+            <Icon
+              icon="material-symbols:double-arrow"
+              color="#8257e5"
+              fontSize={25}
+            />
+            <h2>Desenvolvedor Full Stack</h2>
+          </div>
 
           <h3>
             Desenvolvedor Full Stack com experiências em React, Node, JavaScript

@@ -44,9 +44,17 @@ const Container = styled.div`
       justify-content: space-between;
       align-items: flex-start;
 
-      & > h2 {
-        font-size: 12px;
-        letter-spacing: 0.1rem;
+      & > div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        & > h2 {
+          font-size: 12px;
+          letter-spacing: 0.1rem;
+
+          padding-left: 5px;
+        }
       }
 
       & > h3 {

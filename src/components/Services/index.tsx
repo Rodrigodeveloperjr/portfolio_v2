@@ -12,9 +12,9 @@ const Services = () => {
       <menu>
         <CardService
           title="Desenvolvimento Web"
-          description="Um desenvolvimento focado na criação de sites, páginas únicas, E-commerce
-      ou outras aplicações. Promovendo uma boa experiência e uma boa otimização
-      do site."
+          description="Um desenvolvimento focado na criação de sites, páginas únicas, 
+          E-commerce ou outras aplicações. Promovendo uma boa experiência e uma boa 
+          otimização do site."
         />
         <CardService
           title="Desenvolvimento Responsivo"
@@ -29,22 +29,21 @@ const Services = () => {
           para o usuário."
         />
         <CardService
-          title="Desenvolvimento Web"
-          description="Um desenvolvimento focado na criação de sites, páginas únicas, E-commerce
-      ou outras aplicações. Promovendo uma boa experiência e uma boa otimização
-      do site."
+          title="Desenvolvimento Backend"
+          description="Um desenvolvimento focado em ações que os usuários fazem no frontend, 
+          armazena os dados sendo consumidos, manipulados pelo aplicativos ou softwares e criação de apis."
         />
         <CardService
-          title="Desenvolvimento Web"
-          description="Um desenvolvimento focado na criação de sites, páginas únicas, E-commerce
-      ou outras aplicações. Promovendo uma boa experiência e uma boa otimização
-      do site."
+          title="Desenvolvimento Mobile"
+          description="Um desenvolvimento focado em tablets, 
+          smartphones e outros dispositivos móveis. Tendo como objetivo
+          promover uma boa experiência para o usuário em telas menores."
         />
         <CardService
-          title="Desenvolvimento Web"
-          description="Um desenvolvimento focado na criação de sites, páginas únicas, E-commerce
-      ou outras aplicações. Promovendo uma boa experiência e uma boa otimização
-      do site."
+          title="DevOps"
+          description="Introduzo processos, ferramentas e metodologias
+          para as necessidades ao longo do ciclo de vida dos meus softwares,
+          em todos os processos."
         />
       </menu>
     </Container>

@@ -12,9 +12,21 @@ const Contact = () => {
       </p>
 
       <nav>
-        <ContactLink icon="mdi:github" title="LinkedIn" />
-        <ContactLink icon="mdi:linkedin" title="GitHub" />
-        <ContactLink icon="mdi:instagram" title="Instagram" />
+        <ContactLink
+          icon="mdi:linkedin"
+          title="LinkedIn"
+          href="https://www.linkedin.com/in/rodrigo-de-jesus-silva/"
+        />
+        <ContactLink
+          icon="mdi:github"
+          title="GitHub"
+          href="https://github.com/Rodrigodeveloperjr/"
+        />
+        <ContactLink
+          icon="mdi:instagram"
+          title="Instagram"
+          href="https://www.instagram.com/eaedigooo/"
+        />
       </nav>
     </Container>
   );

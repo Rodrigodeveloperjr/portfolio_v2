@@ -35,12 +35,22 @@ export default createGlobalStyle`
 		text-decoration: none;
 	}
 
-	.App {
-		padding: 0 100px 0 100px;
-
-		width: 100%;
-		max-width: 1600px;
-
-		margin: 0 auto;
+  ::-webkit-scrollbar {
+  	display: none;
 	}
+	
+	/*
+  ::-webkit-scrollbar {
+  	width: 5px;
+	}
+ 
+	::-webkit-scrollbar-thumb {
+		border-radius: 4px;
+  	background: var(--purple-color); 
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+  	background: var(--purple-hover);
+	}
+	*/
 `;

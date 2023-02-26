@@ -12,6 +12,11 @@ const Container = styled.header`
   justify-content: space-between;
   align-items: center;
 
+  position: fixed;
+  top: 0;
+
+  z-index: 2000;
+
   .menu {
     width: 60px;
     height: 60px;

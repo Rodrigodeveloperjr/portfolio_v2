@@ -4,6 +4,8 @@ const Container = styled.div`
   width: 100%;
   max-width: 1400px;
 
+  padding-top: 90px;
+  
   & > div {
     width: 100%;
     max-width: 850px;
@@ -32,6 +34,8 @@ const Container = styled.div`
       height: 102px;
       border: none;
       background-color: var(--purple-color);
+
+      margin: 0 15px;
     }
 
     & > p:nth-child(3) {
@@ -40,6 +44,20 @@ const Container = styled.div`
 
       font-size: 18px;
       color: var(--gray-color);
+    }
+    
+    @media (max-width: 768px) {
+
+      flex-direction: column;
+      align-items: flex-start;
+
+      & > p:nth-child(1) {
+        padding-bottom: 20px;
+      }
+
+      & > hr {
+        display: none;
+      }
     }
   }
 
@@ -51,11 +69,6 @@ const Container = styled.div`
     display: flex;
 
     padding-bottom: 90px;
-
-    & > div:nth-child(2),
-    & > div:nth-child(5) {
-      margin: 0 20px 20px 20px;
-    }
   }
 `;
 

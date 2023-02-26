@@ -23,6 +23,11 @@ const Container = styled.div`
     padding-left: 15px;
     color: var(--gray-color);
   }
+
+  @media (max-width: 425px) {
+    margin: 0;
+    margin-bottom: 10px;
+  }
 `;
 
 export { Container };

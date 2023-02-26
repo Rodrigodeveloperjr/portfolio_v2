@@ -31,7 +31,10 @@ const Container = styled.div`
   & > nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+
+    flex-wrap: wrap;
   }
 `;
 

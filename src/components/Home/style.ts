@@ -16,6 +16,8 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
 
+    text-align: center;
+
     & > h1 {
       font-weight: 100;
       font-size: 50px;
@@ -33,6 +35,28 @@ const Container = styled.div`
       font-weight: 600;
       font-size: 75px;
       letter-spacing: 0.1rem;
+    }
+
+    @media (max-width: 1024px) {
+      height: unset;
+
+      & > h1 {
+        font-size: 40px;
+      }
+      
+      & > h2 {
+        font-size: 50px;
+      }
+    }
+    
+    @media (max-width: 630px) {
+      & > h1 {
+        font-size: 30px;
+      }
+      
+      & > h2 {
+        font-size: 40px;
+      }
     }
   }
 

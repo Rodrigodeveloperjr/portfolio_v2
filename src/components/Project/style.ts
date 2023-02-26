@@ -95,6 +95,20 @@ const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    &:nth-child(2n) {
+      margin: 0;
+    }
+
+    & > div {
+      width: 100%;
+      max-width: 442.67px;
+    }
+    & > img {
+      width: 100%;
+    }
+  }
 `;
 
 export { Container };

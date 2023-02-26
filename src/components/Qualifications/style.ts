@@ -11,6 +11,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
+  padding-top: 90px;
+
   & > h2 {
     width: 100%;
     max-width: 400px;

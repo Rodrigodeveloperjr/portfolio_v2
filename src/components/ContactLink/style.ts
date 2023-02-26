@@ -39,6 +39,10 @@ const Container = styled.a`
       color: var(--purple-color);
     }
   }
+
+  @media (max-width: 1140px) {
+    margin: 5px 0;
+  }
 `;
 
 export { Container };

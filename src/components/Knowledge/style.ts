@@ -5,8 +5,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  padding-bottom: 90px;
-
+  padding: 90px 0;
+  
   & > h2 {
     font-size: 30px;
     font-weight: 600;

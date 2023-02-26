@@ -5,7 +5,7 @@ import { Container } from "./style";
 
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
       <img src={my} />
 
       <div>
@@ -28,8 +28,8 @@ const About = () => {
 
           <p>
             Logo a baixo tem o meu currículo com informçôes mais detalhadas
-            sobre mim. Se preferir, podemos marcar uma call atráves do meu
-            email que está disponibilizado.
+            sobre mim. Se preferir, podemos marcar uma call atráves do meu email
+            que está disponibilizado.
           </p>
         </div>
 

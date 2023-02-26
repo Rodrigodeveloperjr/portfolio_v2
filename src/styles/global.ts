@@ -36,7 +36,7 @@ export default createGlobalStyle`
 	}
 
 	.App {
-		padding: 250px 100px 0 100px;
+		padding: 0 100px 0 100px;
 
 		width: 100%;
 		max-width: 1600px;

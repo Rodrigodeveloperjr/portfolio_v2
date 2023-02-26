@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
-  max-width: 1300px;
+  max-width: 1250px;
   height: 450px;
 
   display: flex;
@@ -10,6 +10,7 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  margin: 0 auto;
   padding: 500px 0 350px 0;
 
   & > img {

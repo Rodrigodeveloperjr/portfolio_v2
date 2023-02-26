@@ -7,7 +7,7 @@ import { Project } from "../Project";
 
 const MyProjects = () => {
   return (
-    <Container>
+    <Container id="projects">
       <h2>Meus projetos</h2>
 
       <menu>

@@ -2,7 +2,7 @@ import { Container } from "./style";
 
 const Home = () => {
   return (
-    <Container>
+    <Container id="home">
       <hgroup>
         <h1>
           Olá, eu sou <p>Rodrigo</p>
@@ -16,7 +16,7 @@ const Home = () => {
           que eu possa te ajudar de alguma forma.
         </p>
 
-        <a>Conhecer mais</a>
+        <a href="#about">Conhecer mais</a>
       </div>
     </Container>
   );

@@ -86,6 +86,7 @@ const Container = styled.header`
       margin-bottom: 25px;
       font-size: 24px;
       transition: all 0.3s;
+      color: var(--white-color);
 
       &:hover {
         color: var(--purple-color);

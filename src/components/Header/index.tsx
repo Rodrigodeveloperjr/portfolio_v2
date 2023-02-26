@@ -31,7 +31,7 @@ const Header = () => {
           <a href="#services">Serviços</a>
           <a href="#knowledge">Conhecimento</a>
           <a href="#projects">Projetos</a>
-          <a href="#contact">Contato</a>
+          <a href="#contacts">Contato</a>
         </nav>
       ) : null}
     </Container>

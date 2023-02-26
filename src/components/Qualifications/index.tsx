@@ -8,7 +8,7 @@ const Qualifications = () => {
   const [change, setChange] = useState<boolean>(false);
 
   return (
-    <Container>
+    <Container id="qualifications">
       <h2>Minhas qualificações e experiências</h2>
 
       <div>

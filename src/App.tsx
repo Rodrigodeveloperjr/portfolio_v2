@@ -6,6 +6,7 @@ import React from "react";
 import { Services } from "./components/Services";
 import { Knowledge } from "./components/Knowledge";
 import { MyProjects } from "./components/MyProjects";
+import { Contact } from "./components/Contact";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Services />
         <Knowledge />
         <MyProjects />
+        <Contact />
       </div>
     </React.Fragment>
   );

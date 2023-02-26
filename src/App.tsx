@@ -7,6 +7,7 @@ import { Services } from "./components/Services";
 import { Knowledge } from "./components/Knowledge";
 import { MyProjects } from "./components/MyProjects";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <MyProjects />
         <Contact />
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

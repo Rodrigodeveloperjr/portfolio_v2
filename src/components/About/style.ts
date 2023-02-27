@@ -63,16 +63,12 @@ const Container = styled.div`
       }
 
       @media (max-width: 768px) {
-        height: 100px;
+        height: unset;
 
         & > h3 {
           font-size: 24px;
-
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-          text-overflow: ellipsis;
+          padding-top: 5px;
+          padding-bottom: 10px;
         }
       }
     }
@@ -91,16 +87,11 @@ const Container = styled.div`
       }
 
       @media (max-width: 768px) {
-        height: 80px;
+        height: unset;
 
         & > p {
           font-size: 13px;
-
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-          text-overflow: ellipsis;
+          padding-bottom: 20px;
         }
       }
     }

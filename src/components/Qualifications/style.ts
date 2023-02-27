@@ -52,9 +52,8 @@ const Container = styled.div`
 
       cursor: pointer;
 
-      &:hover {
-        color: var(--purple-color);
-        border-bottom-color: var(--purple-color);
+      @media (max-width: 425px) {
+        font-size: 14px;
       }
     }
   }

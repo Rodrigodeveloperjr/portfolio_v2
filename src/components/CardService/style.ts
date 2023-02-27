@@ -25,6 +25,10 @@ const Container = styled.div`
 
     color: var(--gray-color-two);
   }
+
+  @media (max-width: 425px) {
+    height: unset;
+  }
 `;
 
 export { Container };

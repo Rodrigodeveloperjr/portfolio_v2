@@ -15,15 +15,6 @@ const Container = styled.div`
     font-size: 15px;
     color: var(--gray-color);
 
-    width: 100%;
-    height: 90px;
-
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
     margin-top: 15px;
   }
 `;

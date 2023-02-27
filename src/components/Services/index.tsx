@@ -41,7 +41,7 @@ const Services = () => {
         />
         <CardService
           title="DevOps"
-          description="Introduzo processos, ferramentas e metodologias
+          description="Introduzir processos, ferramentas e metodologias
           para as necessidades ao longo do ciclo de vida dos meus softwares,
           em todos os processos."
         />

@@ -7,7 +7,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  padding-top: 50px;
+  padding-top: 90px;
   padding-bottom: 120px;
 
   & > h2 {
@@ -35,6 +35,16 @@ const Container = styled.div`
     align-items: center;
 
     flex-wrap: wrap;
+  }
+
+  @media (max-width: 425px) {
+    & > h2 {
+      font-size: 45px;
+    }
+
+    & > p {
+      font-size: 16px;
+    }
   }
 `;
 

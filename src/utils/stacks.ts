@@ -96,7 +96,7 @@ const stacks = [
     img: DiMysql,
   },
   {
-    title: "Postgresql",
+    title: "PostgreSQL",
     img: SiPostgresql,
   },
   {

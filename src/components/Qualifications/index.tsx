@@ -1,3 +1,4 @@
+import certification from "../../assets/Certificado - RODRIGO DE JESUS SILVA - Full Stack - EN.pdf";
 import { Certification } from "../Certification";
 import kenzie from "../../assets/kenzie.png";
 import { Container } from "./style";
@@ -58,12 +59,12 @@ const Qualifications = () => {
             alt="Kenzie"
             title="Desenvolvimento Full Stack"
             description="Curso de 2.000 horas de Desenvolvimento Full Stack que abrange
-      tecnologias Front End e Back End além de soft skills necessárias para o
-      mercado de trabalho. Entre as linguagens e tecnologias aprendidas, estão
-      HTML5, CSS3, JavaScript (ES6+), React, Node.js, Python (Django e Flask)
-      e SQL."
+            tecnologias Front End e Back End além de soft skills necessárias para o
+            mercado de trabalho. Entre as linguagens e tecnologias aprendidas, estão
+            HTML5, CSS3, JavaScript (ES6+), React, Node.js, Python (Django e Flask)
+            e SQL."
             date="2022 - 2023"
-            link=""
+            link={certification}
           />
         </menu>
       )}

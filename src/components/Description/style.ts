@@ -7,13 +7,6 @@ const Container = styled.p`
 
   width: 100%;
   max-width: 260px;
-  height: 121px;
-
-  display: -webkit-box;
-  -webkit-line-clamp: 7;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
 
   margin-top: 15px;
 `;

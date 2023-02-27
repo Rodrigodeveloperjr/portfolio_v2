@@ -4,7 +4,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
   padding-bottom: 5px;
 
   & > figure {
@@ -21,8 +21,10 @@ const Container = styled.div`
   }
 
   & > img {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+
+    margin-left: 20px;
   }
 `;
 

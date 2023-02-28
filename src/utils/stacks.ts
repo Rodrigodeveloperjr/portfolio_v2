@@ -26,6 +26,7 @@ import {
   FaPython,
   FaDocker,
   FaNodeJs,
+  FaFigma,
 } from "react-icons/fa";
 import { DiCss3, DiDjango, DiMysql } from "react-icons/di";
 import { AiFillHtml5 } from "react-icons/ai";
@@ -150,6 +151,10 @@ const stacks = [
   {
     title: "Vite",
     img: SiVite,
+  },
+  {
+    title: "Figma",
+    img: FaFigma,
   },
 ];
 

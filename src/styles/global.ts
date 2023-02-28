@@ -53,4 +53,18 @@ export default createGlobalStyle`
   	background: var(--purple-hover);
 	}
 	*/
+
+	/*
+	1s ease 0s 1 normal forwards running myAnima
+	
+	myAnima
+	0% {
+    transform: scaleY(0.4);
+    transform-origin: 100% 0%;
+	}
+	100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0%;
+	}
+	*/
 `;

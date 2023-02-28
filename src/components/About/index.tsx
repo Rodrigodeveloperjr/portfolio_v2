@@ -35,7 +35,7 @@ const About = () => {
           </p>
 
           <p>
-            Logo a baixo tem o meu currículo com informçôes mais detalhadas
+            Logo abaixo tem o meu currículo com informçôes mais detalhadas
             sobre mim. Se preferir, podemos marcar uma call atráves do meu email
             que está disponibilizado.
           </p>

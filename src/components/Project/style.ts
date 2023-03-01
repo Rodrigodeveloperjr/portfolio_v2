@@ -33,7 +33,7 @@ const Container = styled.div`
 
   & > div {
     width: 442.67px;
-    height: 246px;
+    height: 100%;
 
     display: none;
     flex-direction: column;
@@ -83,6 +83,11 @@ const Container = styled.div`
       & > a:nth-child(1) {
         background-color: var(--purple-color);
         color: var(--black-color);
+
+        &:hover {
+          background-color: var(--purple-hover);
+          border-color: var(--purple-hover);
+        }
       }
 
       & > a:nth-child(2) {

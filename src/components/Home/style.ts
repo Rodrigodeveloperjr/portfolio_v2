@@ -43,19 +43,29 @@ const Container = styled.div`
       & > h1 {
         font-size: 40px;
       }
-      
+
       & > h2 {
         font-size: 50px;
       }
     }
-    
+
     @media (max-width: 630px) {
       & > h1 {
         font-size: 30px;
       }
-      
+
       & > h2 {
         font-size: 40px;
+      }
+    }
+
+    @media (max-width: 540px) {
+      & > h1 {
+        font-size: 20px;
+      }
+
+      & > h2 {
+        font-size: 30px;
       }
     }
   }

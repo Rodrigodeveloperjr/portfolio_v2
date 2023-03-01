@@ -5,9 +5,13 @@ import { Icon } from "@iconify/react";
 import { Container } from "./style";
 
 const About = () => {
+  const screenWidth = window.screen?.width;
+  const aboutId = screenWidth >= 1440 ? "about" : "";
+  const imgId = screenWidth <= 1440 ? "about" : "";
+
   return (
-    <Container id="about">
-      <img src={my} />
+    <Container id={aboutId}>
+      <img src={my} id={imgId} />
 
       <div>
         <div>
@@ -35,9 +39,9 @@ const About = () => {
           </p>
 
           <p>
-            Logo abaixo tem o meu currículo com informçôes mais detalhadas
-            sobre mim. Se preferir, podemos marcar uma call atráves do meu email
-            que está disponibilizado.
+            Logo abaixo tem o meu currículo com informçôes mais detalhadas sobre
+            mim. Se preferir, podemos marcar uma call atráves do meu email que
+            está disponibilizado.
           </p>
         </div>
 

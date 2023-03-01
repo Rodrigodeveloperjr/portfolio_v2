@@ -8,7 +8,7 @@ const Header = () => {
     <Container>
       <a href="#home">
         {"<D"}
-        <a>{"R>"}</a>
+        <p>{"R>"}</p>
       </a>
 
       <input id="menu-hamburguer" type="checkbox" />

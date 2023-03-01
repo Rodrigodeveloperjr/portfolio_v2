@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <Container id={aboutId}>
-      <img src={my} id={imgId} />
+      <img src={my} alt="Rodrigo Silva" id={imgId} />
 
       <div>
         <div>

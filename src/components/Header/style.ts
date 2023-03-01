@@ -21,7 +21,12 @@ const Container = styled.header`
     color: var(--purple-color);
     font-size: 28px;
 
-    & > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    & > p {
       color: var(--white-color);
     }
   }

@@ -24,10 +24,11 @@ const Container = styled.div`
 
   & > img {
     width: 442.67px;
-    height: 246px;
 
     border-radius: 4px;
     border: 2px solid var(--black-color-two);
+
+    object-fit: contain;
   }
 
   & > div {
@@ -96,7 +97,7 @@ const Container = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     &:nth-child(2n) {
       margin: 0;
     }

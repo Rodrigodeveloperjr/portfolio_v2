@@ -18,7 +18,7 @@ const Container = styled.header`
   z-index: 2000;
 
   & > a {
-    color: var(--purple-color);
+    color: var(--white-color);
     font-size: 28px;
 
     display: flex;
@@ -27,7 +27,7 @@ const Container = styled.header`
     align-items: center;
 
     & > p {
-      color: var(--white-color);
+      color: var(--purple-color);
     }
   }
 
@@ -102,6 +102,10 @@ const Container = styled.header`
     background-color: var(--black-color-two);
 
     & > a {
+      position: relative;
+      width: min-content;
+      white-space: nowrap;
+
       margin-bottom: 25px;
       font-size: 24px;
       transition: all 0.3s;
@@ -109,6 +113,30 @@ const Container = styled.header`
 
       &:hover {
         color: var(--purple-color);
+      }
+
+      ::after,
+      ::before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        height: 2px;
+        width: 0;
+        transition: 0.3s;
+        background-color: var(--purple-color);
+      }
+
+      ::after {
+        left: 50%;
+      }
+
+      ::before {
+        right: 50%;
+      }
+
+      :hover::after,
+      :hover::before {
+        width: 50%;
       }
     }
   }

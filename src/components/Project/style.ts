@@ -63,10 +63,8 @@ const Container = styled.div`
       justify-content: space-between;
       align-items: center;
 
-      & > a {
+      & > a:nth-child(1) {
         width: 100%;
-        max-width: 100px;
-        height: 30px;
 
         font-weight: 600;
         font-size: 14px;
@@ -77,26 +75,16 @@ const Container = styled.div`
         align-items: center;
 
         border-radius: 4px;
-        border: 1.5px solid var(--purple-color);
-      }
+        border: 2px solid var(--purple-color);
 
-      & > a:nth-child(1) {
-        background-color: var(--purple-color);
-        color: var(--black-color);
-
-        &:hover {
-          background-color: var(--purple-hover);
-          border-color: var(--purple-hover);
-        }
-      }
-
-      & > a:nth-child(2) {
-        background-color: var(--black-color);
-        color: var(--purple-color);
-
-        &:hover {
+        &:nth-child(1) {
           background-color: var(--purple-color);
           color: var(--black-color);
+
+          &:hover {
+            background-color: var(--purple-hover);
+            border-color: var(--purple-hover);
+          }
         }
       }
     }

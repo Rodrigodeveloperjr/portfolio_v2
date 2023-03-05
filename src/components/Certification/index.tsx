@@ -31,7 +31,7 @@ const Certification = ({
 
       <CompletionDate date={date} />
 
-      <ButtonLink href={link} target="_blank">
+      <ButtonLink color="black" size="default" href={link} target="_blank">
         Visuzalizar certificado
       </ButtonLink>
     </div>

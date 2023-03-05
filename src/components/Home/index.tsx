@@ -1,3 +1,4 @@
+import { ButtonLink } from "../ButtonLink";
 import { Container } from "./style";
 
 const Home = () => {
@@ -16,7 +17,9 @@ const Home = () => {
           que eu possa te ajudar de alguma forma.
         </p>
 
-        <a href="#about">Conhecer mais</a>
+        <ButtonLink color="purple" size="default" href="#about">
+          Conhecer mais
+        </ButtonLink>
       </div>
     </Container>
   );

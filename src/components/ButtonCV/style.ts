@@ -7,7 +7,7 @@ const Container = styled.button`
 
   border-radius: 4px;
   background-color: var(--purple-color);
-  border: 1.5px solid var(--purple-color);
+  border: 2px solid var(--purple-color);
 
   font-weight: 600;
   font-size: 14px;

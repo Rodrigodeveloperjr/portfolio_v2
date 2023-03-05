@@ -34,7 +34,12 @@ const MyProjects = () => {
         />
       </menu>
 
-      <ButtonLink href="https://github.com/Rodrigodeveloperjr" target="_blank">
+      <ButtonLink
+        color="black"
+        size="default"
+        href="https://github.com/Rodrigodeveloperjr"
+        target="_blank"
+      >
         Abrir Github
       </ButtonLink>
     </Container>

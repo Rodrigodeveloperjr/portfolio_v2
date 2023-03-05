@@ -1,3 +1,4 @@
+import { ButtonLink } from "../ButtonLink";
 import { Container } from "./style";
 
 interface IProject {
@@ -17,12 +18,22 @@ const Project = ({ src, alt, title, linkGitHub, linkSite }: IProject) => {
         <p>{title}</p>
 
         <nav>
-          <a href={linkGitHub} target="_blank">
+          <ButtonLink
+            color="purple"
+            size="small"
+            href={linkGitHub}
+            target="_blank"
+          >
             GitHub
-          </a>
-          <a href={linkSite} target="_blank">
+          </ButtonLink>
+          <ButtonLink
+            color="black"
+            size="small"
+            href={linkSite}
+            target="_blank"
+          >
             Site
-          </a>
+          </ButtonLink>
         </nav>
       </div>
     </Container>

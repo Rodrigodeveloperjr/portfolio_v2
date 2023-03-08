@@ -3,7 +3,6 @@ import { ButtonLink } from "../ButtonLink";
 import { Container } from "./style";
 
 const Home = () => {
-
   const [text] = useTypewriter({
     words: [
       "Front-end Developer",
@@ -19,10 +18,9 @@ const Home = () => {
         <h1>
           Olá, eu sou <p>Rodrigo</p>
         </h1>
-        <h2>{text} <Cursor
-          cursorBlinking={true}
-          cursorColor={"#8257E5"}
-        /></h2>
+        <h2>
+          {text} <Cursor cursorBlinking={true} cursorColor={"#8257E5"} />
+        </h2>
       </hgroup>
 
       <div>

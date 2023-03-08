@@ -8,19 +8,14 @@ const Container = styled.div`
 
   height: 100vh;
 
-  h1,
-  h2 {
+  & > h1 {
+    font-size: 28px;
     font-weight: 100;
+
     padding-bottom: 40px;
   }
 
-  & > h1 {
-    font-size: 28px;
-
-    color: var(--purple-color);
-  }
-
-  & > p {
+  & > a {
     color: var(--white-color);
     font-size: 70px;
 
@@ -28,6 +23,8 @@ const Container = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
 
     & > p {
       color: var(--purple-color);

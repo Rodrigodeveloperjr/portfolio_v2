@@ -1,15 +1,23 @@
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
 import { Container } from "./style";
 
 const NotFound = () => {
+  const [text] = useTypewriter({
+    words: ["Página não encontrada"],
+    loop: 1,
+  });
+
   return (
     <Container>
-      <h1>Not Found - 404</h1>
-      <h2>Página não encontrada</h2>
+      <h1>
+        {text} <Cursor cursorBlinking={true} cursorColor={"#8257E5"} />
+      </h1>
 
-      <p>
+      <Link to="/">
         {"<D"}
         <p>{"R>"}</p>
-      </p>
+      </Link>
     </Container>
   );
 };

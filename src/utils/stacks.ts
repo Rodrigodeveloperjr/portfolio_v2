@@ -19,6 +19,8 @@ import {
   SiEditorconfig,
   SiPrettier,
   SiVite,
+  SiTailwindcss,
+  SiBootstrap,
 } from "react-icons/si";
 import {
   FaReact,
@@ -61,12 +63,12 @@ const stacks = [
     img: SiStyledcomponents,
   },
   {
-    title: "Redux",
-    img: SiRedux,
+    title: "Tailwind CSS",
+    img: SiTailwindcss,
   },
   {
-    title: "Nestjs",
-    img: SiNestjs,
+    title: "Redux",
+    img: SiRedux,
   },
   {
     title: "Node",
@@ -79,10 +81,6 @@ const stacks = [
   {
     title: "Prisma",
     img: SiPrisma,
-  },
-  {
-    title: "JSON",
-    img: SiJson,
   },
   {
     title: "Python",
@@ -101,7 +99,11 @@ const stacks = [
     img: SiPostgresql,
   },
   {
-    title: "Git Hub",
+    title: "MongoDB",
+    img: SiMongodb,
+  },
+  {
+    title: "GitHub",
     img: FaGithub,
   },
   {
@@ -113,24 +115,12 @@ const stacks = [
     img: SiJest,
   },
   {
-    title: "MongoDB",
-    img: SiMongodb,
-  },
-  {
     title: "Swagger",
     img: SiSwagger,
   },
   {
-    title: "Heroku",
-    img: SiHeroku,
-  },
-  {
     title: "Vercel",
     img: SiVercel,
-  },
-  {
-    title: "Notion",
-    img: SiNotion,
   },
   {
     title: "Jira",
@@ -147,10 +137,6 @@ const stacks = [
   {
     title: "Prettier",
     img: SiPrettier,
-  },
-  {
-    title: "Vite",
-    img: SiVite,
   },
   {
     title: "Figma",

@@ -1,9 +1,6 @@
+import { ICompletionDate } from "../../interfaces";
 import { Icon } from "@iconify/react";
 import { Container } from "./style";
-
-interface ICompletionDate {
-  date: string;
-}
 
 const CompletionDate = ({ date }: ICompletionDate) => {
   return (

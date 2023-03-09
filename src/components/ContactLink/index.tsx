@@ -1,11 +1,6 @@
+import { IContactLink } from "../../interfaces";
 import { Icon } from "@iconify/react";
 import { Container } from "./style";
-
-interface IContactLink {
-  icon: string;
-  title: string;
-  href: string;
-}
 
 const ContactLink = ({ icon, title, href }: IContactLink) => {
   return (

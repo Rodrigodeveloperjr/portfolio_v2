@@ -1,9 +1,6 @@
+import { IButtonCopy } from "../../interfaces";
 import { Container } from "./style";
 import { useState } from "react";
-
-interface IButtonCopy {
-  link: string;
-}
 
 const ButtonCopy = ({ link }: IButtonCopy) => {
   const [copy, setCopy] = useState<boolean>(false);

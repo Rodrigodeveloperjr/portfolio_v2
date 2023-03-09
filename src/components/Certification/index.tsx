@@ -1,17 +1,9 @@
 import { CompletionDate } from "../CompletionDate";
+import { ICertification } from "../../interfaces";
 import { CompanysImage } from "../CompanysImage";
 import { Description } from "../Description";
 import { ButtonLink } from "../ButtonLink";
 import { Title } from "../Title";
-
-interface ICertification {
-  src: string;
-  alt: string;
-  title: string;
-  description: string;
-  date: string;
-  link: string;
-}
 
 const Certification = ({
   src,

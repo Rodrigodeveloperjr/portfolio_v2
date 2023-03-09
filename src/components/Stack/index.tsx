@@ -1,10 +1,5 @@
-import { IconType } from "react-icons/lib";
+import { IStack } from "../../interfaces";
 import { Container } from "./style";
-
-interface IStack {
-  icon: IconType;
-  title: string;
-}
 
 const Stack = ({ icon: Icon, title }: IStack) => {
   return (

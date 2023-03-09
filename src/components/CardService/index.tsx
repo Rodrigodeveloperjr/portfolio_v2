@@ -1,9 +1,5 @@
+import { ICardService } from "../../interfaces";
 import { Container } from "./style";
-
-interface ICardService {
-  title: string;
-  description: string;
-}
 
 const CardService = ({ title, description }: ICardService) => {
   return (

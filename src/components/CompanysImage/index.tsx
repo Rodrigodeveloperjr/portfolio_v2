@@ -1,11 +1,6 @@
+import { ICompanysImage } from "../../interfaces";
 import { Icon } from "@iconify/react";
 import { Container } from "./style";
-
-interface ICompanysImage {
-  icon: string;
-  srcCompany: string;
-  altCompany: string;
-}
 
 const CompanysImage = ({ icon, srcCompany, altCompany }: ICompanysImage) => {
   return (

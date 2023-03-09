@@ -12,12 +12,16 @@ export default createGlobalStyle`
 
 	:root {
     --white-color: #FAFAFA;
+
     --black-color: #09090A;
     --black-color-two: #111111;
-    --purple-color: #8257E5;
-    --purple-hover: #4A2E8A;
+		
 		--gray-color: #CCC;
 		--gray-color-two: #818181;
+		  
+		--purple-color: #8257E5;
+    --purple-hover: #4A2E8A;
+	
 		--shadow: rgba(0, 0, 0, 0.5);
 	}
 
@@ -38,33 +42,4 @@ export default createGlobalStyle`
   ::-webkit-scrollbar {
   	display: none;
 	}
-	
-	/*
-  ::-webkit-scrollbar {
-  	width: 5px;
-	}
- 
-	::-webkit-scrollbar-thumb {
-		border-radius: 4px;
-  	background: var(--purple-color); 
-	}
-
-	::-webkit-scrollbar-thumb:hover {
-  	background: var(--purple-hover);
-	}
-	*/
-
-	/*
-	1s ease 0s 1 normal forwards running myAnima
-	
-	myAnima
-	0% {
-    transform: scaleY(0.4);
-    transform-origin: 100% 0%;
-	}
-	100% {
-    transform: scaleY(1);
-    transform-origin: 100% 0%;
-	}
-	*/
 `;

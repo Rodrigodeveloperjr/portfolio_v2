@@ -1,13 +1,6 @@
+import { IProject } from "../../interfaces";
 import { ButtonLink } from "../ButtonLink";
 import { Container } from "./style";
-
-interface IProject {
-  src: string;
-  alt: string;
-  title: string;
-  linkGitHub: string;
-  linkSite: string;
-}
 
 const Project = ({ src, alt, title, linkGitHub, linkSite }: IProject) => {
   return (

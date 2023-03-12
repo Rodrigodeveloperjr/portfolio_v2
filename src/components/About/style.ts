@@ -3,7 +3,6 @@ import styled from "styled-components";
 const Container = styled.div`
   width: 100%;
   max-width: 1250px;
-  height: 450px;
 
   display: flex;
   flex-direction: row;
@@ -11,7 +10,7 @@ const Container = styled.div`
   align-items: center;
 
   margin: 0 auto;
-  padding: 500px 0 350px 0;
+  padding: 300px 0;
 
   & > img {
     width: 450px;
@@ -119,6 +118,10 @@ const Container = styled.div`
     & > div {
       padding-top: 80px;
     }
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 200px;
   }
 `;
 

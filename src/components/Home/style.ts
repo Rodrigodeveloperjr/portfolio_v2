@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
-  height: 660px;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  padding-top: 250px;
 
   & > hgroup {
     height: 166px;

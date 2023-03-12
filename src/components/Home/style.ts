@@ -49,7 +49,7 @@ const Container = styled.div`
       }
     }
 
-    @media (max-width: 630px) {
+    @media (max-width: 768px) {
       & > h1 {
         font-size: 30px;
       }
@@ -59,7 +59,7 @@ const Container = styled.div`
       }
     }
 
-    @media (max-width: 540px) {
+    @media (max-width: 550px) {
       & > h1 {
         font-size: 20px;
       }

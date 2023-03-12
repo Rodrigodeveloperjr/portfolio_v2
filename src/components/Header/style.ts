@@ -1,3 +1,4 @@
+import { animationUp } from "../../animations";
 import styled from "styled-components";
 
 const Container = styled.header`
@@ -13,9 +14,10 @@ const Container = styled.header`
   align-items: center;
 
   position: fixed;
+  z-index: 1000;
   top: 0;
 
-  z-index: 1000;
+  animation: ${animationUp} 0.5s;
 
   & > a {
     color: var(--white-color);

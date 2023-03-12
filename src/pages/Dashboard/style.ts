@@ -1,3 +1,4 @@
+import { animationUp } from "../../animations";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -11,6 +12,7 @@ const Container = styled.div`
   align-items: center;
 
   margin: 0 auto;
+  animation: ${animationUp} 0.5s;
 
   @media (max-width: 1024px) {
     padding: 0 50px;

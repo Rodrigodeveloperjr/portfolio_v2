@@ -1,14 +1,5 @@
-import styled, { keyframes } from "styled-components";
-
-const animationText = keyframes`
-  from {
-    opacity: 0.5;
-  }
-
-  to {
-    opacity: 1;
-  }
-`;
+import { animationText } from "../../animations";
+import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
@@ -28,20 +19,21 @@ const Container = styled.div`
 
   & > p {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 28px;
 
     color: var(--purple-color);
-    animation: ${animationText} 0.8s infinite alternate;
 
     display: flex;
     flex-direction: row;
+
+    animation: ${animationText} 0.8s infinite alternate;
 
     & > p {
       font-weight: 400;
       font-style: italic;
 
-      padding-left: 7px;
+      padding-left: 5px;
 
       color: var(--white-color);
     }
